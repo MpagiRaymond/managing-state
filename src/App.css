@@ -63,7 +63,7 @@ form{
   width: 100%;
   flex-direction: row;
   justify-content: space-between;
-  gap: 0.2rem;
+  gap: 2.2rem;
 }
 input{
   padding-left: 0.5rem;
@@ -74,7 +74,7 @@ input:nth-child(3){
   width: 25rem;
 }
 input:nth-child(2){
-  width: 20rem;
+  width: 18rem;
 }
 form button{
   width: 25em;
@@ -103,4 +103,22 @@ tr{
   flex-direction: row;
   gap: 0.5rem;
   padding: 0.5rem;
+}
+.countryCodes{
+  width: 5rem;
+  height: 5rem;
+}
+.custom-select {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #4CAF50;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.custom-select:focus {
+  outline: none;
+  border-color: #3e8e41;
 }
