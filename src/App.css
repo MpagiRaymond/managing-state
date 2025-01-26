@@ -63,7 +63,7 @@ form{
   width: 100%;
   flex-direction: row;
   justify-content: space-between;
-  gap: 2.2rem;
+  gap: 1.2rem;
 }
 input{
   padding-left: 0.5rem;
@@ -74,7 +74,7 @@ input:nth-child(3){
   width: 25rem;
 }
 input:nth-child(2){
-  width: 18rem;
+  width: 16rem;
 }
 form button{
   width: 25em;
